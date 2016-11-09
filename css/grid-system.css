@@ -40,7 +40,11 @@
 	padding: 0 14px;
 	float: left;
 }
-
+.col-9 li
+{
+	display: inline-block;
+	width: 130px;
+}
 .col-1 {
 	/* (1 / 12) x 100 */
 	width: 8.333333%;

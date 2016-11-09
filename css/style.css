@@ -49,15 +49,35 @@ p{
 	border: 1px solid black;
 	padding: 2px;
 	margin: 10px;
+	float: right;
 }
 .contenido .icono{
 	width: 15px;
 	height: 15px;
+	position: relative;
+	left: 800px;
+	bottom: 1010px;
 }
 .contenido .col-3 p{
 	font-size: 12px;
 	font-family: Arial;
 	text-align: left;
+	position: relative;
+	left: 800px;
+	bottom: 1000px;
 	padding-bottom: 8px;
 	margin-top: 5px;
+	
+	
 }
+.contenido .col-3 .h3s{
+
+	position: relative;
+	left: 800px;
+	bottom: 1000px;
+	padding-bottom: 8px;
+	margin-top: 5px;
+	
+	
+}
+
