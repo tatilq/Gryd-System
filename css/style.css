@@ -96,6 +96,7 @@ p{
 	height: 15px;
 	position: relative;
 	left: 55px;
+	border: 1px solid white ;
 }
 .menuderecha li
 {
@@ -112,7 +113,7 @@ p{
 {
 	padding: 5px;
 	border-bottom: 3px solid #969EA2;
-	font-size: 15px;
+	font-size: 20px;
 	position: relative;
 	bottom: 10px;
 	left:50px;
@@ -129,7 +130,7 @@ p{
 {
 	padding: 5px;
 	border-bottom: 3px solid #969EA2;
-	font-size: 15px;
+	font-size: 20px;
 	position: relative;
 	left:50px;
 	bottom: 10px;
