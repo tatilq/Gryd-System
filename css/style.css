@@ -1,5 +1,4 @@
-/* Inserta tu codigo aqui */
-* {outline:1px solid rgba(255,0,0,0);}
+
 h4{
 	text-align: center;
 	color: #0431B4;
@@ -7,28 +6,44 @@ h4{
 h5{
 	color: #0431B4;
 }
-p{
+p{ 
 	text-align: center;
 	color: #0431B4;
 }
-
-.header{
-	background-color: #000;
+.header
+{
+	background-color: black;
 	font-family: Arial;
 }
+
 .menu{
-	list-style: none;
+	list-style:none ;
 	padding: 30px;
 	text-align: center;
-}
-.menu li{
-	display: inline-block;
+}   
+.menu li
+{
+
+	display: inline-block;      
 	margin: 3px;
-}
-.menu a{
+}  
+.menu a
+{
 	text-decoration: none;
 	color: white;
 }
+.menu a:hover
+{
+	font-size:15px;
+
+	color: #70BABA;
+	background-color:#AE0CA0;
+}
+
+
+
+/*submenu con 2 filas */
+
 .submenu{
 	background-color: #BDBDBD;
 	padding: 3%;
@@ -40,44 +55,129 @@ p{
 	padding: 2px;
 	margin-top: 10px;
 }
+.submenu img:hover
+{
+		opacity: 0.5;
+	
+}
+/*Contenido con una fila*/
 .contenido{
 	padding: 3%;
+	
+
 }
 .contenido img{
 	display: inline-block;
 	width: 120px;
 	border: 1px solid black;
 	padding: 2px;
-	margin: 10px;
-	float: right;
+	margin: 6px;
+	
 }
+.contenido  p
+{
+	position: relative;
+	bottom: 5px;
+}
+
+.col-9 .imglist
+{
+	display: inline-block;
+	width: 130px;
+}
+
+.col-9 .imglist:hover
+{
+	opacity: 0.5;
+}
+
 .contenido .icono{
 	width: 15px;
 	height: 15px;
 	position: relative;
-	left: 800px;
-	bottom: 1010px;
+	left: 55px;
 }
-.contenido .col-3 p{
-	font-size: 12px;
+.menuderecha li
+{
+	list-style: none;
+	display: block;
+}
+.menuderecha a
+{
+	text-decoration: none;
+}
+.menuderecha .h3s
+{
+	padding: 5px;
+	border-bottom: 3px solid #969EA2;
+	font-size: 15px;
+	position: relative;
+	left:50px;
+}
+
+.menuderecha .pp
+{
+	position: relative;
+	top: 10px;
+	font-size: 15px;
+}
+.menuderecha .h3s1
+{
+	padding: 5px;
+	border-bottom: 3px solid #969EA2;
+	font-size: 15px;
+	position: relative;
+	left:50px;
+	bottom: 10px;
+	margin-top: -15px;
+}
+.menuderecha #p1
+{
+	position: relative;
+	left: 65px;
+}
+
+/*Aqui esta el pie de pagina */
+.footer
+{
+	width: 10000px;
+	padding-left: 14px; 
+	padding-right: 14px;
+	width: 100%;
+	margin-top:20px;
+	background-color: #7D7878;
 	font-family: Arial;
+}
+
+
+.menupie{
+	list-style:none ;
+	padding: 10px;
+}   
+.menupie p
+{
 	text-align: left;
-	position: relative;
-	left: 800px;
-	bottom: 1000px;
-	padding-bottom: 8px;
-	margin-top: 5px;
-	
-	
+	color: white;
 }
-.contenido .col-3 .h3s{
+.menupie li
+{
+	display: inline-block;      
+	margin: 3px;
+	position:relative;
+	left:150px;
+	margin-right: 20px;
+	font-size: 15px;
+}     
+.menupie a
+{
+	text-decoration: none;
+	color: #C7C0C0;
 
+}    
+.menupie .ultimo
+{
+	color:#AEA4A4;
 	position: relative;
-	left: 800px;
-	bottom: 1000px;
-	padding-bottom: 8px;
-	margin-top: 5px;
-	
-	
+	left: 200px;
+	font-size:15px;
 }
-
