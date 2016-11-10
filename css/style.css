@@ -101,6 +101,8 @@ p{
 {
 	list-style: none;
 	display: block;
+	position: relative;
+
 }
 .menuderecha a
 {
@@ -112,14 +114,16 @@ p{
 	border-bottom: 3px solid #969EA2;
 	font-size: 15px;
 	position: relative;
+	bottom: 10px;
 	left:50px;
 }
 
 .menuderecha .pp
 {
 	position: relative;
-	top: 10px;
+	top: 5px;
 	font-size: 15px;
+
 }
 .menuderecha .h3s1
 {
@@ -135,6 +139,7 @@ p{
 {
 	position: relative;
 	left: 65px;
+	top: 10px;
 }
 
 /*Aqui esta el pie de pagina */
